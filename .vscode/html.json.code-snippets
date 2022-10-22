@@ -1,0 +1,74 @@
+{
+	
+	"Php Tag": {
+		"prefix": "php",
+		"body": "<?php ?>",
+		"description": "Tag php"
+	},
+	"Php include": {
+		"prefix": "include",
+		"body": "<?php include' '; ?>",
+		"description": "including"
+	},
+	"Php header": {
+		"prefix": "move",
+		"body": "header('Location:')",
+		"description": "Header"
+	},
+	"Inline Echo": {
+		"prefix": "echo",
+		"body": "<?= ?>",
+		"description": "Echo php"
+	},
+	"Inline Echo with var": {
+		"prefix": "evar",
+		"body": "<?= $$var ?>",
+		"description": "Echo with var"
+	},
+	"Connetion": {
+		"prefix": "con",
+		"body": "<?php include'dbcon.php'; ?>",
+		"description": "Including connetion"
+	},
+	"Sign out": {
+		"prefix": "signout",
+		"body": "<?php header('Location:signout.php') ?>",
+		"description": "Sign out"
+	},
+	"heads": {
+		"prefix": "header",
+		"body": "<?php include'penghias/header.php'; ?>",
+		"description": "Including header"
+	},
+	"footer": {
+		"prefix": "foots",
+		"body": "<?php include'penghias/footer.php'; ?>",
+		"description": "Including footer"
+	},
+	"Php var": {
+		"prefix": "var",
+		"body": "$$var",
+	
+	},
+	"Php 2 var": {
+		"prefix": "var2",
+		"body": "$$var1, $$var2",
+		
+	},
+	"Php 3 var": {
+		"prefix": "var3",
+		"body": "$$var1, $$var2, $$var3",
+		
+	},
+	"Php 4 var": {
+		"prefix": "var4",
+		"body": "$$var1, $$var2, $$var3, $$var4",
+		
+	},
+	"Php 5 var": {
+		"prefix": "var5",
+		"body": "$$var1, $$var2, $$var3, $$var4, $$var5",
+		
+	}
+
+}
